@@ -101,11 +101,14 @@ function sumIsOdd(x,y){
     //SE la somma dei due numeri da un numero PARI
     if (xYsum % 2 == 0) {
         // ritorno come valore falso
-        return false
-    //ALTRIMENTI   
+        console.log('false')
+        return false 
+        //ALTRIMENTI   
     }else{
         // riutorno come valore vero
+        console.log('true')
         return true
     }
 }
-}
+
+sumIsOdd(40,342)

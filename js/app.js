@@ -8,7 +8,7 @@ for (let i = parola.length -1; i >= 0; i--) {
 //SE la parola ribaltata é uguale a quella data dall'utente
 if (reversed == parola) {
     //stampo 'é palindroma'
-    console.log('é palindroma')\
+    console.log('é palindroma')
 //ALTRIMENTI
 }else{
     //stampo 'non é palindroma'
@@ -93,3 +93,19 @@ if (sum % 2 == 0) {
 }
 //TODO Un-comment this line to call the function
 //evenOddGame()
+
+//faccio una funzione per derterminare se la somma di due numeri é pari
+function sumIsOdd(x,y){
+    //salvo il valore sella somma dei due numeri
+    let xYsum = x + y
+    //SE la somma dei due numeri da un numero PARI
+    if (xYsum % 2 == 0) {
+        // ritorno come valore falso
+        return false
+    //ALTRIMENTI   
+    }else{
+        // riutorno come valore vero
+        return true
+    }
+}
+}
